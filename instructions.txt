@@ -1,0 +1,26 @@
+WeebCentral Manager
+===================
+
+HOW TO INSTALL AND RUN (THE EASY WAY - PRECOMPILED APP)
+If you received the `WeebCentral Manager UI.app` file, you do not need to install Python or run any setup scripts! The app is completely standalone.
+
+1. Drag and drop the `WeebCentral Manager UI.app` into your Mac's "Applications" folder.
+2. Because the app was not downloaded from the official Mac App Store, your Mac security (Gatekeeper) will try to block it the first time.
+3. Fix: Do NOT double-click it. Instead, **Right-Click** the app and select "Open" from the menu.
+4. A warning will pop up saying the developer cannot be verified. Click the "Open" button anyway.
+5. In the future, you can just double-click it normally!
+
+**Note on "App is Damaged" Error:**
+If macOS wrongly tells you the app is "damaged and should be moved to the Trash", this is an overly aggressive Apple security feature.
+To fix it, open your Terminal and run this exact command, then try opening the app again:
+xattr -cr /Applications/WeebCentral\ Manager\ UI.app
+
+------------------------------------------------------------------
+
+HOW TO INSTALL AND RUN FROM SOURCE CODE (DEVELOPERS ONLY)
+Only follow these steps if you did not receive the standalone .app file and want to run the raw Python script.
+
+1. Open your Terminal.
+2. Navigate to this folder.
+3. Run the setup script to install dependencies: chmod +x setup.sh && ./setup.sh
+4. Run the scraper manually: python3 weebcentral_scraper.py
