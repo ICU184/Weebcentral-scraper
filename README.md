@@ -13,7 +13,11 @@ A macOS desktop application for downloading manga chapters from [WeebCentral](ht
 
 ### Option 1: Standalone App (Recommended)
 
-Download `WeebCentral Manager UI.app` from the [Releases](../../releases) page.
+1. Go to the [Releases](../../releases) page of this repository.
+2. Download the `WeebCentral Manager UI.app.zip` file from the latest release.
+3. Unzip it and drag the `.app` into your Applications folder.
+
+> **For the developer:** To upload the app, go to your GitHub repo → **Releases** → **Create a new release** → attach the zipped `.app` file as a binary asset.
 
 > **First Launch on macOS:**
 > Because the app is not from the Mac App Store, Gatekeeper will block it.
@@ -30,7 +34,7 @@ Requires Python 3 and pip.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YourUsername/WeebCentral-Manager.git
+git clone https://github.com/ICU184/WeebCentral-Manager.git
 cd WeebCentral-Manager
 
 # Install dependencies
